@@ -4,9 +4,9 @@ export default function Dashboard() { return (
 <Text variant="xLarge">Dashboard</Text>
 <Stack horizontal tokens={{ childrenGap: 20 }}> <Stack styles={{ root: card }}>
 <Text variant="large">Active Clients</Text>
-<Text variant="xxLarge">32</Text> </Stack>
+<Text variant="xxLarge">2</Text> </Stack>
 <Stack styles={{ root: card }}>
-<Text variant="large">Revenue Pipeline</Text> <Text variant="xxLarge">$1.25M</Text>
+<Text variant="large">Signoff pending</Text> <Text variant="xxLarge">1</Text>
 </Stack> </Stack>
 </Stack> );
 }
